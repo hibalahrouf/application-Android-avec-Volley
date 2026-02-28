@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">lab8</string>
+    <string-array name="villes">
+        <item>Rabat</item>
+        <item>Marrakech</item>
+        <item>Casablanca</item>
+        <item>Tanger</item>
+        <item>Fes</item>
+    </string-array>
+</resources>
