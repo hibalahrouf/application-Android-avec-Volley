@@ -37,7 +37,7 @@ CREATE TABLE student (
 
 ## Aperçu Base de Données (phpMyAdmin)
 
-![Base de données](screenshots/database.png)
+![Base de données](images/1.png)
 
 ---
 
@@ -53,7 +53,7 @@ lab8/
 ├── service/
 ├── ws/
 ```
-
+![Base de données](images/19.png)
 ## Web Services Implémentés
 
 | Méthode | Fichier | Description |
@@ -71,19 +71,24 @@ Toutes les réponses sont retournées au format JSON.
 
 ### Ajouter un étudiant
 
-![Test Postman - Add](screenshots/postman_add.png)
-
+![Test Postman - Add](images/3.png)
+![Test Postman - Add](images/4.png)
+![Test Postman - Add](images/5.png)
 ### Charger les étudiants
 
-![Test Postman - Load](screenshots/postman_load.png)
+![Test Postman - Load](images/6.png)
 
 ### Modifier un étudiant
 
-![Test Postman - Update](screenshots/postman_update.png)
+![Test Postman - Update](images/12.png)
+![Test Postman - Update](images/13.png)
 
 ### Supprimer un étudiant
 
-![Test Postman - Delete](screenshots/postman_delete.png)
+![Test Postman - Delete](images/8.png)
+![Test Postman - Delete](images/9.png)
+![Test Postman - Delete](images/10.png)
+![Test Postman - Delete](images/11.png)
 
 ---
 
@@ -121,20 +126,13 @@ Après validation :
 
 ### Interface Ajout
 
-![Interface Ajout](screenshots/add_student.png)
+![Interface Ajout](images/7.png)
+# Démonstration Vidéo
 
----
 
-## 2. Afficher la liste des étudiants
 
-- Utilisation d’un ListView
-- Adaptateur personnalisé EtudiantAdapter
-- Chargement automatique via loadStudent.php
-- Bouton Refresh
+[![Voir la vidéo](images/7.png)](https://drive.google.com/file/d/19a-b9nxB7wSNbgeD2zqcGter7mn7N9j-/view?usp=sharing)
 
-### Liste des étudiants
-
-![Liste des étudiants](screenshots/list_students.png)
 
 ---
 
@@ -150,6 +148,19 @@ Créer une activité affichant la liste complète des étudiants avec :
 - Actualisation dynamique après chaque opération
 
 ---
+---
+
+## 2. Afficher la liste des étudiants
+
+- Utilisation d’un ListView
+- Adaptateur personnalisé EtudiantAdapter
+- Chargement automatique via loadStudent.php
+- Bouton Refresh
+![Interface Ajout](images/14.png)
+### Liste des étudiants
+
+![Liste des étudiants](images/15.png)
+
 
 ## Popup d’actions
 
@@ -158,7 +169,7 @@ Lorsqu’on clique sur un étudiant :
 - Modifier
 - Supprimer
 
-![Popup actions](screenshots/popup.png)
+![Popup actions](images/16.png)
 
 ---
 
@@ -169,6 +180,7 @@ Lorsqu’on clique sur un étudiant :
 - Envoi vers deleteStudent.php
 - Mise à jour automatique de la liste
 
+![Popup actions](images/20.png)
 ---
 
 ## Modification
@@ -191,42 +203,17 @@ La liste se met à jour automatiquement sans redémarrer l’activité.
 
 ---
 
-# Configuration Réseau
-
-Pour l’émulateur Android :
-
-```
-http://10.0.2.2/lab8/ws/
-```
-
-Permission Internet :
-
-```xml
-<uses-permission android:name="android.permission.INTERNET"/>
-```
-
----
 
 # Démonstration Vidéo
 
-Vidéo du projet :
 
-Ajouter ici le lien Google Drive ou YouTube
 
----
+[![Voir la vidéo](screens/1.png)](https://drive.google.com/file/d/1x9NhUGi3Cn7Qjc-XNa4Wskjf_HxoWd1k/view?usp=sharing)
 
-# Compétences Démontrées
-
-- Création d’une base de données MySQL
-- Développement d’un Web Service PHP
-- Mise en place d’une architecture DAO
-- Communication Android ↔ PHP
-- Manipulation du format JSON
-- Utilisation de la bibliothèque Volley
-- Parsing avec Gson
-- Gestion dynamique d’une ListView
-- Utilisation d’AlertDialog et interactions utilisateur
-- Implémentation complète des opérations CRUD
 
 ---
+
+
+
+
 
