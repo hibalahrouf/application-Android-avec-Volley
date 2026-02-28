@@ -156,7 +156,10 @@ Créer une activité affichant la liste complète des étudiants avec :
 - Adaptateur personnalisé EtudiantAdapter
 - Chargement automatique via loadStudent.php
 - Bouton Refresh
+  
 ![Interface Ajout](images/14.png)
+
+
 ### Liste des étudiants
 
 ![Liste des étudiants](images/15.png)
@@ -208,7 +211,7 @@ La liste se met à jour automatiquement sans redémarrer l’activité.
 
 
 
-[![Voir la vidéo](screens/1.png)](https://drive.google.com/file/d/1x9NhUGi3Cn7Qjc-XNa4Wskjf_HxoWd1k/view?usp=sharing)
+[![Voir la vidéo](images/14.png)](https://drive.google.com/file/d/1x9NhUGi3Cn7Qjc-XNa4Wskjf_HxoWd1k/view?usp=sharing)
 
 
 ---
